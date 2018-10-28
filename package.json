@@ -1,6 +1,6 @@
 {
   "name": "require-code-gen-watcher",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "根据文件生成 index.js require 内容",
   "main": "src/index.js",
   "scripts": {
