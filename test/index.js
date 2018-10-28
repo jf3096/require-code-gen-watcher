@@ -6,7 +6,7 @@ watcher(
 	{
 		exportName: 'models',
 		loopFiles: path.resolve(__dirname, '../tmp/*.js'),
-		relativePath: path.resolve(__dirname, '../tmp/index.js'),
+		relativePath: path.resolve(__dirname, '../tmp'),
 		excludeCondition: (filename) => /index\.js/g.test(filename),
 		writePath: path.resolve(__dirname, '../tmp/index.js'),
 	},
